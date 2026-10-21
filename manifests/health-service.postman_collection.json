@@ -1,0 +1,50 @@
+{
+  "info": {
+    "_postman_id": "7418ac84-790b-4450-ae16-2e10e391e17c",
+    "name": "health-service",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "36386043"
+  },
+  "item": [
+    {
+      "name": "health",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://arch.homework/health",
+          "protocol": "http",
+          "host": [
+            "arch",
+            "homework"
+          ],
+          "path": [
+            "health"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "otusapp",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://arch.homework/otusapp/avelpicasso/health",
+          "protocol": "http",
+          "host": [
+            "arch",
+            "homework"
+          ],
+          "path": [
+            "otusapp",
+            "avelpicasso",
+            "health"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
